@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PaaP</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:"Inter",sans-serif;
+  background:#0f0f11;
+  color:white;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:50px 20px;
+}
+
+header{
+  text-align:center;
+  margin-bottom:60px;
+}
+
+.logo{
+  font-size:40px;
+  font-weight:600;
+  letter-spacing:2px;
+}
+
+.tagline{
+  margin-top:8px;
+  color:#9ca3af;
+}
+
+.apps{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:28px;
+}
+
+.app{
+  background:#18181b;
+  border-radius:16px;
+  padding:28px 20px;
+  text-align:center;
+  transition:.25s;
+  border:1px solid rgba(255,255,255,.05);
+}
+
+.app:hover{
+  transform:translateY(-5px);
+  background:#1f1f23;
+}
+
+.app img{
+  width:90px;
+  height:90px;
+  border-radius:20px;
+  margin-bottom:14px;
+}
+
+.app-name{
+  font-size:18px;
+  margin-bottom:8px;
+}
+
+.app a{
+  text-decoration:none;
+  color:#7dd3fc;
+  font-size:14px;
+}
+
+footer{
+  margin-top:70px;
+  text-align:center;
+  color:#6b7280;
+  font-size:13px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<div class="logo">PaaP</div>
+<div class="tagline">Simple games and apps. Thoughtfully crafted.</div>
+</header>
+
+<section class="apps">
+
+<div class="app">
+<img src="app1.png" alt="App 1">
+<div class="app-name">App One</div>
+<a href="https://play.google.com/store/apps/details?id=com.amit.tbk.snackdfe0e3ea2846439aaf2d9666b7b058db">View App</a>
+</div>
+
+<div class="app">
+<img src="app2.png" alt="App 2">
+<div class="app-name">App Two</div>
+<a href="https://play.google.com/store/apps/details?id=com.paap.incometaxcalculator">View App</a>
+</div>
+
+<div class="app">
+<img src="app3.png" alt="App 3">
+<div class="app-name">App Three</div>
+<a href="https://play.google.com/store/apps/details?id=com.paap.bmicalculator">View App</a>
+</div>
+
+<div class="app">
+<img src="app4.png" alt="App 4">
+<div class="app-name">App Four</div>
+<a href="https://play.google.com/store/apps/details?id=com.amit.tbk.sevenguess">View App</a>
+</div>
+
+</section>
+
+<footer>
+© 2026 PaaP
+</footer>
+
+</div>
+
+</body>
+</html>
